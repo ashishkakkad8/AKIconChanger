@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1B00B1241E376F00A6EFCC /* TomIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B00AF241E376F00A6EFCC /* TomIcon@3x.png */; };
+		3D1B00B2241E376F00A6EFCC /* TomIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B00B0241E376F00A6EFCC /* TomIcon@2x.png */; };
+		3D51434B241FE4650021EB71 /* JerryIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D514349241FE4640021EB71 /* JerryIcon@2x.png */; };
+		3D51434C241FE4650021EB71 /* JerryIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D51434A241FE4640021EB71 /* JerryIcon@3x.png */; };
 		3DDDE9E5241D005D00AA9D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDE9E4241D005D00AA9D64 /* AppDelegate.swift */; };
 		3DDDE9E7241D005D00AA9D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDE9E6241D005D00AA9D64 /* SceneDelegate.swift */; };
 		3DDDE9E9241D005D00AA9D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDE9E8241D005D00AA9D64 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D1B00AF241E376F00A6EFCC /* TomIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TomIcon@3x.png"; sourceTree = "<group>"; };
+		3D1B00B0241E376F00A6EFCC /* TomIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TomIcon@2x.png"; sourceTree = "<group>"; };
+		3D514349241FE4640021EB71 /* JerryIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JerryIcon@2x.png"; sourceTree = "<group>"; };
+		3D51434A241FE4640021EB71 /* JerryIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JerryIcon@3x.png"; sourceTree = "<group>"; };
 		3DDDE9E1241D005D00AA9D64 /* AKIconChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKIconChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDDE9E4241D005D00AA9D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DDDE9E6241D005D00AA9D64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D514348241FE21D0021EB71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D514349241FE4640021EB71 /* JerryIcon@2x.png */,
+				3D51434A241FE4640021EB71 /* JerryIcon@3x.png */,
+				3D1B00B0241E376F00A6EFCC /* TomIcon@2x.png */,
+				3D1B00AF241E376F00A6EFCC /* TomIcon@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		3DDDE9D8241D005D00AA9D64 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +81,7 @@
 				3DDDE9EA241D005D00AA9D64 /* Main.storyboard */,
 				3DDDE9ED241D006200AA9D64 /* Assets.xcassets */,
 				3DDDE9EF241D006200AA9D64 /* LaunchScreen.storyboard */,
+				3D514348241FE21D0021EB71 /* Resources */,
 				3DDDE9F2241D006200AA9D64 /* Info.plist */,
 			);
 			path = AKIconChanger;
@@ -125,9 +145,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1B00B2241E376F00A6EFCC /* TomIcon@2x.png in Resources */,
+				3D51434C241FE4650021EB71 /* JerryIcon@3x.png in Resources */,
 				3DDDE9F1241D006200AA9D64 /* LaunchScreen.storyboard in Resources */,
+				3D51434B241FE4650021EB71 /* JerryIcon@2x.png in Resources */,
 				3DDDE9EE241D006200AA9D64 /* Assets.xcassets in Resources */,
 				3DDDE9EC241D005D00AA9D64 /* Main.storyboard in Resources */,
+				3D1B00B1241E376F00A6EFCC /* TomIcon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
